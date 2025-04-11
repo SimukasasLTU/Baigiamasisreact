@@ -1,0 +1,34 @@
+/* ✅ 1. TAILWIND DIREKTYVOS turi būti PAČIOJE PRADŽIOJE */
+@import "tailwindcss";
+
+/* ✅ 2. Tavo asmeniniai stiliai žemiau */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+input, textarea, button {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+h2, h4 {
+  margin-bottom: 10px;
+}
