@@ -56,7 +56,7 @@ const CarCard = ({ car, showActions = false, showRent = false, onDelete }) => {
               <p className="text-blue-600 mt-2">
                 <button onClick={() => navigate('/login')} className="underline">
                   Prisijunkite
-                </button> kad galėtumėte nuomotis
+                </button>
               </p>
             )}
           </div>
